@@ -20,15 +20,15 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Grid.Column="0" Background="Red"/>
-        <Grid Grid.Row="3" Grid.Column="0" Background="Red"/>
-        <Grid Grid.Row="0" Grid.Column="3" Background="Red"/>
-        <Grid Grid.Row="3" Grid.Column="3" Background="Red"/>
-        <Grid Grid.Column="1" Grid.ColumnSpan="2"  Grid.Row="0" Background="Green"/>
-        <Grid Grid.Column="1" Grid.ColumnSpan="2"  Grid.Row="3" Background="Green"/>
-        <Grid Grid.Column="0" Grid.RowSpan="2"  Grid.Row="1" Background="Green"/>
-        <Grid Grid.Column="3" Grid.RowSpan="2"  Grid.Row="1" Background="Green"/>
-        <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Purple"/>
+        <Grid Name="redGrid1" Grid.Row="0" Grid.Column="0" Background="Red"/>
+        <Grid Name="redGrid2" Grid.Row="3" Grid.Column="0" Background="Red"/>
+        <Grid Name="redGrid3" Grid.Row="0" Grid.Column="3" Background="Red"/>
+        <Grid Name="redGrid4" Grid.Row="3" Grid.Column="3" Background="Red"/>
+        <Grid Name="greenGrid1" Grid.Column="1" Grid.ColumnSpan="2"  Grid.Row="0" Background="Green"/>
+        <Grid Name="greenGrid2" Grid.Column="1" Grid.ColumnSpan="2"  Grid.Row="3" Background="Green"/>
+        <Grid Name="greenGrid3" Grid.Column="0" Grid.RowSpan="2"  Grid.Row="1" Background="Green"/>
+        <Grid Name="greenGrid4" Grid.Column="3" Grid.RowSpan="2"  Grid.Row="1" Background="Green"/>
+        <Grid Name="purpleGrid1" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Purple"/>
         <Button Content="Click me!" Width="200" Height="100" Grid.Column="1" Grid.Row="1" FontSize="24" Click="Button_Click"/>
         <Label Name="testLabel" Content="123" Grid.Row="2" Grid.Column="2"  Margin="0, 50, 0, 0"/>
         <CheckBox Content="Test123123" Grid.Row="2" Grid.Column="2"/>
